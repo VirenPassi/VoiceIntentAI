@@ -1,0 +1,31 @@
+﻿# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# IDE settings
+.idea/
+
+# Generated outputs, checkpoints and local data
+outputs/*
+!outputs/.gitkeep
+data/
+*.pt
+*.pth
+*.ckpt
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
